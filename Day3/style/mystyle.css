@@ -1,0 +1,51 @@
+/* Clear mặc định của các thẻ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    
+}
+.card{
+    width: 350px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+    overflow: hidden;
+}
+.icon{
+    color: #ffd600;
+}
+.card-image{
+    height: 230px;
+}
+.card-image img{
+    height: 100%;
+    object-fit: cover;
+}
+img{
+ 
+    max-width: 100%;
+    font-weight: 900;
+}
+.card-content{
+    padding: 16px;
+    
+}
+.card-content h2{
+font-size: 19px;
+color: #464646;
+font-weight: 400;
+}
+.card-content p{
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100;
+    }
+.type{
+    margin: 20px 0;
+}
