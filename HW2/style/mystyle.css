@@ -1,0 +1,11 @@
+tr, td, th {
+    border: 1px solid black;
+}
+.button{
+    margin: auto;
+  text-align: center;
+}
+table{
+    border: 2px solid black;
+}
+
